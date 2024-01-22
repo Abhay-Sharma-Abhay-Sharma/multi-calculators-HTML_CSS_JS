@@ -139,3 +139,16 @@ input:focus {
 h2 {
     margin-top: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding-top: 50px; 
+        width: 600px;
+
+        /* Adjust padding for smaller screens */
+    }
+
+    input {
+        width: calc(100% - 20px); /* Adjust input width for smaller screens */
+    }
+}
